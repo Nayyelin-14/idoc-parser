@@ -1,0 +1,43 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Logs
+*.log
+
+# Quarkus
+.quarkus/
+
+# Core business logic - MVP (never exposed)
+/core/src/main/java/com/nayyelin/idocparser/core/service/
+/core/src/main/java/com/nayyelin/idocparser/core/utils/
+/core/src/main/java/com/nayyelin/idocparser/core/ParserService.java
+/core/src/test/
+
+# Local screenshots (not committed)
+/screenshots/
