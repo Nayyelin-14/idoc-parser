@@ -66,7 +66,6 @@ idoc-parser/
 ├── core/           # Pure Java parsing logic (no framework dependencies)
 ├── quarkus-app/    # REST API + web UI (Quarkus)
 ├── samples/        # Sample WE60 IDoc files + API test scripts
-└── screenshots/    # Local screenshots (not committed)
 ```
 
 ## Testing
